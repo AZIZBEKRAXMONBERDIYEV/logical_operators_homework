@@ -9,7 +9,7 @@ def main(a,b):
     """
     n=a<0
     s=b
-    c=n and s
+    c=n or s
     return c
 print(main(-1,7))
     
