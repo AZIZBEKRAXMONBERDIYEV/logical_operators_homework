@@ -9,5 +9,6 @@ def main(a,b):
     """
     n=a>0
     s=b>0
-    return n,s
-print(main(-4,4))
+    c=n and s
+    return c
+print(main(4,4))
