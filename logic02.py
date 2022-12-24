@@ -9,6 +9,6 @@ def main(a,b):
     """
     n=a>0
     s=b>0
-    c=n and s
-    return c
-print(main(4,4))
+    f=n and s
+    return f
+print(main(3,4))
