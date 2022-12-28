@@ -8,7 +8,7 @@ def main(a,b):
         bool: answer
     """
     n=a<0
-    s=b
+    s=b<0
     c=n or s
     return c
 print(main(-1,7))
