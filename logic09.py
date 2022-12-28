@@ -8,5 +8,5 @@ def main(a,b):
         bool: answer
     """
 
-    return a%2==0 or b%2==1
-print(main(6,8))
+    return a%2==1 or b%2==1
+print(main(5,8))
