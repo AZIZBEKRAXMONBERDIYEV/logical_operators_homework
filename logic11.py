@@ -6,6 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    s=a//1>100
+    s=a//1>=100
     return s
-print(main(12))
+print(main(112))
