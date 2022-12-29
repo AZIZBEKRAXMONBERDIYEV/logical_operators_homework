@@ -8,8 +8,8 @@ def main(a,b):
         bool: answer
     """
     n=a%2==1
-    s=b%2==1 
+    s=b%2==1
     c=n and s
     return c
-print(main(3,7))
+print(main(4,7))
     
