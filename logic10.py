@@ -8,4 +8,4 @@ def main(a):
     """
     s=a//1>=10
     return s
-print(main(24))
+print(main(2))
