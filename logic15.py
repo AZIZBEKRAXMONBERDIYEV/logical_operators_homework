@@ -6,4 +6,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    s=a//100
+    d=a%100//10
+    c=a%10
+    n=(s+d+c)%2==1
+    return n
+print(main(233))
