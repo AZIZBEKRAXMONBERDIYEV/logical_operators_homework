@@ -8,4 +8,9 @@ def main(x):
     Returns:
         bool: answer
     """
-    return
+    s=x//100
+    c=x%100//10
+    d=x%10
+    a=(d*100)+(c*10)+(s)==x
+    return a
+print(main(142))
